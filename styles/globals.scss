@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Quicksand:wght@500;600;700&display=swap');
+
+:root {
+  --background: #0c0c0e;
+  --text-color: #e1e1e6;
+
+  --color-alpha: #008891;
+  --color-beta: #c62a88;
+  --color-gamma: #de4463;
+  --color-omega: #e97171;
+
+  --nav-size: 100px;
+  --master-padding: 0 5%;
+  --master-margin: 0 5%;
+  --signup-padding: 20px 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::selection {
+    background: var(--color-gamma);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+  font: 400 16px Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body::-webkit-scrollbar {
+  width: .4em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(27, 27, 27, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-alpha);
+  outline: 1px solid var(--color-beta);
+}
