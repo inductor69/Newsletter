@@ -10,11 +10,11 @@ import Main from '../components/Body';
 
 export default function Home() {
   const twitterHandle = '@leokindacodes';
-  const currentURL = 'https://bubblegum.dev';
-  const siteName = 'Bubblegum.dev';
-  const pageTitle = 'Bubblegum Newsletter';
+  const currentURL = 'https://';
+  const siteName = '';
+  const pageTitle = 'DS/ALGO Newsletter';
   const description =
-    'Stickiest newsletter out there. Subscribe to receive trending hot developer resources, weekly.';
+    'Subscribe to our newsletter to receive biweekly email and be a Master of Data Structures and Algorithms and ace Coding Interviews';
   return (
     <>
       <Head>
@@ -31,7 +31,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image:alt"
-          content="Bubblegum Newsletter thumbnail cover"
+          content="Newsletter thumbnail cover"
         />
         {/* Open Graph */}
         <meta property="og:url" content={currentURL} key="ogurl" />
