@@ -1,8 +1,7 @@
-# Bubblegum.dev 🍬
+# NlogN 🍬
 
-Running on Nextjs with SASS preprocessor. [Check demo here](https://newsletter-drab.vercel.app/).
+Running on Nextjs with SASS preprocessor. 
 
 ### Future updates: 
 ☐ Also fetch comments done on Twitter from API.
 
-![Newsletter Demo](public/Newsletter.gif)
