@@ -7,7 +7,7 @@ export function Navbar(props) {
     <nav>
       <nav className={styles.navbar}>
         <ul href="/" className={styles.logo}>
-          <Logo alt="Bubblegum.dev logo image" />
+          <Logo alt=" logo image" />
         </ul>
         <ul className={styles.wrapNavItem}>{props.children}</ul>
       </nav>
