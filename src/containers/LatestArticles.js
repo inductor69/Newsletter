@@ -13,7 +13,7 @@ export function LatestArticles({ edges }) {
   return (
     <Box row my={-2}>
       {edges.map((edge) => (
-        <Box key={edge.node.id} col={1} py={2}>
+        <Box key={edge.node.id} col={1} py={1}>
           <CardLink as={Link} to={edge.node.fields.link}>
             <Card>
               <CardBody>

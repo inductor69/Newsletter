@@ -20,10 +20,7 @@ export default function IndexPage({ data }) {
         I am Mechanical Engineering Student at Indian Institute of Technology, Delhi, Passionate about Front-end, Back-end and Competitive programming.
         </HeroTeaser>
       </Hero>
-      <Container forwardedAs="section" pb={5}>
-        <SectionTitle forwardedAs="h2">Blog</SectionTitle>
-        <LatestArticles edges={data.allMdx.edges} />
-      </Container>
+      
     </>
   )
 }
@@ -31,7 +28,7 @@ export default function IndexPage({ data }) {
 export const pageQuery = graphql`
   query($langKey: String!) {
     allMdx(
-      limit: 5
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: { published: { ne: false } }

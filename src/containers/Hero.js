@@ -60,14 +60,14 @@ export const HeroTitle = styled.h1`
 `
 
 export const HeroTeaser = styled.p`
-  margin: 4 0;
+  margin: 3 0;
   font-size: 25;
   max-width: 560;
 `
 
 export function Hero({ children }) {
   return (
-    <PageContainer forwardedAs="section" minHeight="85vh">
+    <PageContainer forwardedAs="section" minHeight="50vh">
       <Dots />
       <MixBackground />
       <Container position="relative">{children}</Container>

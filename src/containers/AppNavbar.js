@@ -10,16 +10,12 @@ import { useLangKey, I18nLink } from '../components/I18nContext'
 
 const locales = {
   en: {
-    about: 'About',
-    blog: 'Blog',
+    about: 'About Me',
     workshops: 'Workshops',
-    projects: 'Projects',
   },
   fr: {
     about: 'A propos',
-    blog: 'Blog',
     workshops: 'Formations',
-    projects: 'Projets',
   },
 }
 
@@ -35,9 +31,7 @@ export function AppNavbar() {
         <NavbarLink as={I18nLink} to="https://salicylic.netlify.app/">
           {t.about}
         </NavbarLink>
-        <NavbarLink as={I18nLink} to="/blog">
-          {t.blog}
-        </NavbarLink>
+      
        
       </NavbarSecondary>
     </Navbar>
