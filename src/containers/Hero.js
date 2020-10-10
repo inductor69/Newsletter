@@ -60,7 +60,7 @@ export const HeroTitle = styled.h1`
 `
 
 export const HeroTeaser = styled.p`
-  margin: 3 0;
+  margin: 2 0;
   font-size: 25;
   max-width: 560;
 `

@@ -85,7 +85,7 @@ export function Newsletter() {
   }
 
   return (
-    <Container my={6}>
+    <Container my={4}>
       <Form onSubmit={handleSubmit}>
         {({ handleSubmit, submitting, submitSucceeded }) => (
           <form noValidate onSubmit={handleSubmit}>

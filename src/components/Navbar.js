@@ -7,7 +7,7 @@ import { DarkModeSwitcher } from './DarkModeSwitcher'
 
 export const Nav = styled.nav`
   padding: 3 3;
-  margin: 0 auto;
+  margin: -2 auto;
   position: fixed;
   background-color: navbar-bg;
   box-shadow: soft;
